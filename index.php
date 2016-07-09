@@ -45,7 +45,7 @@
 	if (isset($data)) {
 		print "<input type=\"hidden\" name=\"idx\" value=\"{$idx}\"/>";
 		print "<input type=\"hidden\" name=\"user\" value=\"{$user}\"/>";
-		$source_file = 	$translation['file'];
+		$source_file = 	$data['source']['file'];
 		print "<input type=\"hidden\" name=\"source\" value=\"{$source_file}\"/>";
 		print '<table>';
 		print '<br><br>Please rate quality of the following sentences from <b>best</b> (1) to <b>worst</b>(4). Ties are allowed.<br><br>';
