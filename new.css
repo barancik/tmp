@@ -1,0 +1,43 @@
+@import url('http://fonts.googleapis.com/css?family=Lato');
+
+body, html{
+  height: 100%;
+  background: #e2dbbe;
+	font-family: 'Lato', sans-serif;
+}
+
+.container{
+  display: block;
+  position: absolute;
+  margin: auto;
+  height: 800px;
+  width: 900px;
+  bottom: 0; left:0; right: 0; top:0;
+  padding: 0;
+}
+
+h2 {
+	color: #AAAAAA;
+	font-weight: normal;
+	margin: 0;
+    padding: 0;
+}
+
+input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #0DFF92;
+}
+
+input[type=radio]:checked ~ label{
+  color: #0DFF92;
+}
+
+table, th, td {
+
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
