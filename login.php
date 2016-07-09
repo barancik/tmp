@@ -13,7 +13,7 @@ $password = "okoun";  // Modify Password to suit for access, Max 10 Char.
 </head>
 
 <body>
-<div class="container">
+<div class="container" style="left:50; top:50;" >
 <form action="login.php" method="post">
 Username: <input type="text" size="10" name="username" value=""/> <br>
 <input type="submit" value="Choose username"/>
