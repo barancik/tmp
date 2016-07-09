@@ -39,7 +39,7 @@
 
 <body>
 	<div class="container">
-	<form action="save.php" method="post">
+	
 	
   <?php 
 	if (isset($data)) {
@@ -63,18 +63,23 @@
 			print "</td></tr> <br>";
 			
 		}
-			print '</table>';
-			print '<p style="text-align: center;"><input type="submit" value="Send"/></p>';
-			
-			
-			
-		
-		
-		} 
-		
+			print '</table>'; 
+		}
 	?>
-		
+	<table>
+		<tr>
+			<td>
+	<form action="save.php" method="post">
+		<input type="submit" value="Send"/>
 		</form>
+		</td>
+		<td>
+	<form action="index.php" method="post">
+		<input type="submit" value="Skip"/>
+    </form>
+    </td>
+</tr>
+    </table>
 	</div>
 </body>
 </html>
