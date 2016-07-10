@@ -40,7 +40,7 @@
 <body>
 	<div class="container">
 	
-	
+	<form action="save.php" method="post">
   <?php 
 	if (isset($data)) {
 		print "<input type=\"hidden\" name=\"idx\" value=\"{$idx}\"/>";
@@ -69,15 +69,12 @@
 	<table>
 		<tr>
 			<td>
-	<form action="save.php" method="post">
+	
 		<input type="submit" value="Send"/>
 		</form>
 		</td>
 		<td>
-	<form action="index.php" method="post">
-		<input type="submit" value="Skip"/>
-    </form>
-    </td>
+  </td>
 </tr>
     </table>
 	</div>
